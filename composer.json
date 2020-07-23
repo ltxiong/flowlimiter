@@ -1,0 +1,24 @@
+{
+    "name": "ltxiong/customlog",
+    "description": "自定义log类",
+    "license": "none",
+    "keywords": [
+        "php",
+        "rsyslog",
+        "log"
+    ],
+    "authors": [
+        {
+            "name": "ltxiong",
+            "email": "ltx851201@yeah.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ltxiong\\CustomLog\\": "./src/"
+        }
+    }
+}
