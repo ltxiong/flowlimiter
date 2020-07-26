@@ -1,6 +1,8 @@
 # 接口限流器实现
 
 参考：https://github.com/titan-web/rate-limit
+https://blog.csdn.net/zzti_erlie/article/details/105438501
+
 
 实现全部依赖redis，并且依赖redis单实例
 优化：可以引入锁方案对操作进行加锁处理避免并发造成数据不一致，由于接口限流器并不需要严格的数据准确，加锁不加锁影响不大，所以暂时没加
