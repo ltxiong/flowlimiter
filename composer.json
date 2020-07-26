@@ -1,11 +1,12 @@
 {
-    "name": "ltxiong/customlog",
-    "description": "自定义log类",
+    "name": "ltxiong/flowlimiter",
+    "description": "自定义的接口限流类",
     "license": "none",
     "keywords": [
-        "php",
-        "rsyslog",
-        "log"
+        "php接口限流",
+        "计数器算法",
+        "令牌桶算法",
+        "漏桶算法"
     ],
     "authors": [
         {
@@ -18,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ltxiong\\CustomLog\\": "./src/"
+            "Ltxiong\\FlowLimiter\\": "./src/"
         }
     }
 }
